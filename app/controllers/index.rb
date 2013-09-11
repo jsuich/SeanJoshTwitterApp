@@ -24,9 +24,11 @@ get '/auth' do
 
   session[:user_id] = user.id
 
-
-
   erb :index
+end
+
+get '/status/:job_id' do
+  #return status of a job to an AJAX call
   
 end
 
