@@ -2,10 +2,20 @@
   margin: 20px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  border: 1px solid blue;
 }
 
 button a {
   text-decoration: none;
   color: black;
 }
+
+#accessBits {
+  opacity: 0.2;
+  color: gray;
+}
+
+h1 {
+  color: blue;
+}
+

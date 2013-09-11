@@ -4,4 +4,9 @@ $(document).ready(function() {
   // when we try to bind to them
 
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+
+  $('#tweetForm').submit(function(event) {
+    event.preventDefault();
+    $.post( '/tweet', params[:tweet_text], console.log("Tweet successful" );
+    });
 });
